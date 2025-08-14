@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="TestComponent.Listeners"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Seleniumm/SeleniumFrameworkDesign2">
+        <classes>
+
+            <class name="inarAcademy.test.SubmitOrderTest">
+                <methods>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+
+            <class name="inarAcademy.tests.ErrorValidationsTest">
+                <methods>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+
+            <class name="inarAcademy.tests.SubmitOrderTest">
+                <methods>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
